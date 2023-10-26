@@ -33,7 +33,7 @@ body {
 
 #my-name {
   font-family: "Kaushan Script", cursive;
-  color: #16e0bd;
+  color: #8c52ff;
 }
 
 #left-side {
@@ -52,9 +52,9 @@ body {
 }
 
 a {
-  color: #16e0bd;
+  color: #8c52ff;
   text-decoration: none;
-  border-bottom: 1px dotted #16e0bd;
+  border-bottom: 1px dotted #8c52ff;
 }
 
 footer {
