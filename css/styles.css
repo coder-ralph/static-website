@@ -15,6 +15,8 @@ body {
 }
 
 body {
+  max-width: 100%;
+  overflow-x: hidden;
   background-color: rgb(244, 241, 241);
   font-family: "Bree Serif", serif;
   color: rgb(57, 57, 57);
@@ -106,15 +108,15 @@ a {
   column-gap: 16px;
 }
 
-/* #left-side > a {
+#left-side > a {
   margin-right: 20px;
-} */
+}
 
-/* #right-side {
+#right-side {
   position: absolute;
   top: 20px;
   right: 20px;
-} */
+}
 
 a {
   color: #8c52ff;
@@ -126,7 +128,7 @@ a {
 footer {
   position: absolute;
   bottom: 0;
-  width: 100vw; /* vw -> viewport width */
+  width: 100vw;
   padding: 16px;
 }
 
@@ -136,7 +138,7 @@ footer > section {
 }
 
 #content div {
-  width: 100vw; /* vw -> viewport width */
+  width: 100vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -172,11 +174,11 @@ footer > section {
 }
 
 #hero-banner h1 {
-  font-size: 2rem; /* 1rem -> 16px */
+  font-size: 2rem;
 }
 
 #hero-banner h2 {
-  font-size: 1.1rem; /* customize this value to align the text in single row */
+  font-size: 1.1rem;
 }
 
 h3 {
