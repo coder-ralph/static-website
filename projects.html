@@ -16,6 +16,39 @@
         height: auto;
       }
 
+      h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .project-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .project-buttons a {
+        padding: 8px 16px;
+        text-align: center;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+        background-color: #007bff;
+        transition: background-color 0.3s ease;
+      }
+
+      .project-buttons a:hover {
+        background-color: #0056b3;
+      }
+
+      @media (max-width: 425px) {
+        .project-buttons {
+          margin-bottom: 40px;
+        }
+      }
+      
       section.project > img {
         width: 100%;
         height: 250px;
@@ -113,17 +146,20 @@
         </a>
       </nav>
       <nav id="right-side">
-        <a class="nav-link" href="https://github.com/coder-ralph">
-          <i class="fa-brands fa-github"></i> Github
-        </a>
-      </nav>
+        <!-- Button for toggling light/dark mode -->
+        <div class="switch">
+          <span class="theme-icon">
+            <i class="fa-solid fa-moon"></i>
+          </span>
+        </div>
+      </nav>  
     </header>
     <section id="hero-banner">
       <div>
         <section>
           <img
             id="my-avatar"
-            src="./img/me.png"
+            src="./img/me-blue.webp"
             alt="This is my amazing avatar."
           />
         </section>
@@ -155,6 +191,11 @@
           voluptatum architecto amet, quis iure, assumenda voluptatibus
           explicabo nulla tenetur.
         </p>
+        <!-- Preview and Code buttons -->
+        <div class="project-buttons">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preview Site</a>
+          <a href="https://github.com/coder-ralph/project" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
       </section>
       
       <section class="project">
@@ -174,6 +215,11 @@
           voluptatum architecto amet, quis iure, assumenda voluptatibus
           explicabo nulla tenetur.
         </p>
+        <!-- Preview and Code buttons -->
+        <div class="project-buttons">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preview Site</a>
+          <a href="https://github.com/coder-ralph/project" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
       </section>
 
       <section class="project">
@@ -193,6 +239,11 @@
           voluptatum architecto amet, quis iure, assumenda voluptatibus
           explicabo nulla tenetur.
         </p>
+        <!-- Preview and Code buttons -->
+        <div class="project-buttons">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preview Site</a>
+          <a href="https://github.com/coder-ralph/project" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
       </section>
 
       <section class="project">
@@ -212,6 +263,11 @@
           voluptatum architecto amet, quis iure, assumenda voluptatibus
           explicabo nulla tenetur.
         </p>
+        <!-- Preview and Code buttons -->
+        <div class="project-buttons">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preview Site</a>
+          <a href="https://github.com/coder-ralph/project" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
       </section>
 
       <section class="project">
@@ -231,6 +287,11 @@
           voluptatum architecto amet, quis iure, assumenda voluptatibus
           explicabo nulla tenetur.
         </p>
+        <!-- Preview and Code buttons -->
+        <div class="project-buttons">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preview Site</a>
+          <a href="https://github.com/coder-ralph/project" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
       </section>
 
       <section class="project">
@@ -250,6 +311,11 @@
           voluptatum architecto amet, quis iure, assumenda voluptatibus
           explicabo nulla tenetur.
         </p>
+        <!-- Preview and Code buttons -->
+        <div class="project-buttons">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preview Site</a>
+          <a href="https://github.com/coder-ralph/project" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
       </section>
 
       <section class="project">
@@ -269,6 +335,11 @@
           voluptatum architecto amet, quis iure, assumenda voluptatibus
           explicabo nulla tenetur.
         </p>
+        <!-- Preview and Code buttons -->
+        <div class="project-buttons">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preview Site</a>
+          <a href="https://github.com/coder-ralph/project" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
       </section>
 
       <section class="project">
@@ -288,6 +359,11 @@
           voluptatum architecto amet, quis iure, assumenda voluptatibus
           explicabo nulla tenetur.
         </p>
+        <!-- Preview and Code buttons -->
+        <div class="project-buttons">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preview Site</a>
+          <a href="https://github.com/coder-ralph/project" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
       </section>
 
       <section class="project">
@@ -307,6 +383,11 @@
           voluptatum architecto amet, quis iure, assumenda voluptatibus
           explicabo nulla tenetur.
         </p>
+        <!-- Preview and Code buttons -->
+        <div class="project-buttons">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preview Site</a>
+          <a href="https://github.com/coder-ralph/project" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
       </section>
 
       <section class="project">
@@ -326,21 +407,30 @@
           voluptatum architecto amet, quis iure, assumenda voluptatibus
           explicabo nulla tenetur.
         </p>
+        <!-- Preview and Code buttons -->
+        <div class="project-buttons">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">Preview Site</a>
+          <a href="https://github.com/coder-ralph/project" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
       </section>
     </section>
 
     <!-- Footer -->
     <footer>
+      <!-- Social media links -->
       <section>
         <a href="https://www.linkedin.com/in/ralphrosael">
           <i class="fa-brands fa-linkedin"></i> LinkedIn
         </a>
+        <a class="nav-link" href="https://github.com/coder-ralph">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
         <a href="https://freecodecamp.org/ralphrosael">
-          <i class="fa-brands fa-free-code-camp"></i>
-          freeCodeCamp
+          <i class="fa-brands fa-free-code-camp"></i> freeCodeCamp
         </a>
       </section>
-    </footer> 
-
+    </footer>
+    <!-- JS Script -->
+    <script src="js/script.js"></script>
   </body>
 </html>
